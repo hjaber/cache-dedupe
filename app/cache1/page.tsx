@@ -6,7 +6,7 @@ export default function Cache1() {
   return (
     <div className="flex flex-col items-center">
       <h1 className="text-2xl font-bold text-gray-400">
-        export const runtime = `&quot;`experimental-edge`&quot;` enabled
+        export const runtime = &quot;experimental-edge&quot; enabled
       </h1>
       <Suspense
         fallback={

@@ -5,6 +5,9 @@ import { Suspense } from "react";
 export default function Cache1() {
   return (
     <div className="flex flex-col items-center">
+      <h1 className="text-2xl font-bold text-gray-400">
+        export const runtime = "experimental-edge" enabled
+      </h1>
       <Suspense
         fallback={
           <div className="flex min-h-screen flex-col items-center justify-center">
@@ -19,3 +22,5 @@ export default function Cache1() {
     </div>
   );
 }
+
+export const runtime = "experimental-edge";
